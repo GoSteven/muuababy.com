@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	margin:0;
+	background:url(static/bg.png) center repeat-y;
+	position:relative;
+	margin: 0 auto;
+}
+.header {
+	margin: 0 auto;
+	width:1024px;
+	background:url(static/header.jpg);
+	height:234px;
+}
+.nav {
+	margin: 0 auto;
+	width: 1024px;
+	background:url(static/navigation.jpg) center no-repeat;
+	height: 30px;
+}
+.nav a {
+	color: #FFF;
+	text-decoration:none;
+}
+.nav ul {
+	margin: 0;
+list-style-type: none;
+padding: 4px 5px 0 0;	
+}
+
+li {
+display: inline;
+list-style-type: none;
+
+padding-left: 20px;
+}
