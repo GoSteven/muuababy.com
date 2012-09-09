@@ -1,5 +1,7 @@
 *.py[co]
 .project
+.idea
+tmp
 
 # Packages
 *.egg

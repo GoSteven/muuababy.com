@@ -36,3 +36,13 @@ list-style-type: none;
 
 padding-left: 20px;
 }
+
+.clear {
+    clear: both;
+}
+
+
+#content {
+    margin: 7px auto;
+    width: 1010px;
+}
