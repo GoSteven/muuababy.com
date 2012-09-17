@@ -7,6 +7,7 @@ body {
 	background:url(bg.png) center repeat-y;
 	position:relative;
 	margin: 0 auto;
+    font-size: 14px;
 }
 .header {
 	margin: 0 auto;
@@ -41,8 +42,24 @@ padding-left: 20px;
     clear: both;
 }
 
+.all ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.all li {
+    margin-left: 0;
+    padding: 0;
+}
+
 
 #content {
     margin: 7px auto;
     width: 1010px;
+}
+
+#footer {
+    height: 360px;
+    background: url("make_in_au.png") center no-repeat;
 }
